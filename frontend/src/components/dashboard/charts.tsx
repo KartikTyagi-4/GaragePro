@@ -194,32 +194,24 @@ export function Charts({ data }: ChartsProps) {
 
               <PieChart>
 
-                <Pie
-                  data={data.status_breakdown}
-                  dataKey="count"
-                  nameKey="status"
-                  cx="50%"
-                  cy="50%"
-                  outerRadius={100}
-                  label
-                >
-
-                  {data.status_breakdown.map(
-                    (_item: StatusBreakdownItem, index: number) => (
-
-                      <Cell
-                        key={`status-${index}`}
-                        fill={
-                          COLORS[
-                            index % COLORS.length
-                          ]
-                        }
-                      />
-
-                    )
-                  )}
-
-                </Pie>
+                <Pie 
+  data={data.status_breakdown ?? []} 
+  dataKey="count" 
+  nameKey="status" 
+  cx="50%" 
+  cy="50%" 
+  outerRadius={100} 
+  label 
+>
+  {(data.status_breakdown ?? []).map(
+    (_item: StatusBreakdownItem, index: number) => (
+      <Cell
+        key={`status-${index}`}
+        fill={COLORS[index % COLORS.length]}
+      />
+    )
+  )}
+</Pie>
 
                 <Tooltip />
 
