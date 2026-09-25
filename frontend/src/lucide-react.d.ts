@@ -1,0 +1,57 @@
+declare module "lucide-react" {
+  import type { ComponentType, SVGProps } from "react";
+
+  export type LucideIcon = ComponentType<SVGProps<SVGSVGElement>>;
+
+  export const AlertCircle: LucideIcon;
+  export const ArrowRight: LucideIcon;
+  export const BarChart3: LucideIcon;
+  export const Bell: LucideIcon;
+  export const BriefcaseBusiness: LucideIcon;
+  export const CalendarClock: LucideIcon;
+  export const CalendarDays: LucideIcon;
+  export const CarFront: LucideIcon;
+  export const CheckCircle2: LucideIcon;
+  export const CheckIcon: LucideIcon;
+  export const ChevronDownIcon: LucideIcon;
+  export const ChevronLeft: LucideIcon;
+  export const ChevronRight: LucideIcon;
+  export const ChevronRightIcon: LucideIcon;
+  export const ChevronUpIcon: LucideIcon;
+  export const Circle: LucideIcon;
+  export const CircleDollarSign: LucideIcon;
+  export const CirclePlus: LucideIcon;
+  export const Clock: LucideIcon;
+  export const Clock3: LucideIcon;
+  export const Database: LucideIcon;
+  export const Edit: LucideIcon;
+  export const Eye: LucideIcon;
+  export const IndianRupee: LucideIcon;
+  export const LayoutDashboard: LucideIcon;
+  export const Loader2: LucideIcon;
+  export const Mail: LucideIcon;
+  export const Menu: LucideIcon;
+  export const Monitor: LucideIcon;
+  export const Moon: LucideIcon;
+  export const Pencil: LucideIcon;
+  export const Phone: LucideIcon;
+  export const Plus: LucideIcon;
+  export const RefreshCw: LucideIcon;
+  export const Save: LucideIcon;
+  export const Search: LucideIcon;
+  export const Settings: LucideIcon;
+  export const Sparkles: LucideIcon;
+  export const Sun: LucideIcon;
+  export const TrendingUp: LucideIcon;
+  export const User: LucideIcon;
+  export const UserCog: LucideIcon;
+  export const UserPlus: LucideIcon;
+  export const Users: LucideIcon;
+  export const Wifi: LucideIcon;
+  export const WifiOff: LucideIcon;
+  export const Wrench: LucideIcon;
+  export const X: LucideIcon;
+  export const XCircle: LucideIcon;
+  export const XIcon: LucideIcon;
+  export const Zap: LucideIcon;
+}
