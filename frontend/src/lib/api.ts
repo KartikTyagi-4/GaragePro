@@ -193,7 +193,7 @@ export interface DashboardResponse {
   revenue_over_time?: ChartDataPoint[];
 
   booking_status?: StatusBreakdownItem[];
-  status_breakdown?: StatusBreakdownItem[];
+  status_breakdown: StatusBreakdownItem[];
 
   service_breakdown?: ServiceBreakdownItem[];
 
